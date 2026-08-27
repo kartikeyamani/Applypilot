@@ -1,0 +1,35 @@
+# Company registry for direct ATS job-board APIs (Ashby, Greenhouse).
+# Both platforms expose public, unauthenticated JSON APIs for their job boards --
+# no scraping, no LLM needed. Applications on these platforms are usually a
+# single public form (no personal LinkedIn/SSO login required), which makes
+# them the most reliable target for autonomous apply.
+#
+# Add a company by adding its board slug below. Wrong/outdated slugs just
+# 404 and are skipped -- safe to guess.
+
+ashby:
+  - ramp
+  - linear
+  - vercel
+  - notion
+  - openai
+  - substack
+  - cohere
+  - writer
+  - sierra
+  - harvey
+
+greenhouse:
+  - stripe
+  - airbnb
+  - robinhood
+  - databricks
+  - coinbase
+  - pinterest
+  - discord
+  - asana
+  - figma
+  - reddit
+  - elastic
+  - gitlab
+  - affirm
